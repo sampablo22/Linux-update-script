@@ -28,6 +28,7 @@ Any Debian based distro.
     If not just add it in.
 
 3.  If required, reboot your computer or force bash to re-read ```~/.profile```:
+
     ```exec -l bash```
 4. Change directories to your private bin if you're not there already:
     ```cd ~/bin```
