@@ -30,13 +30,20 @@ Any Debian based distro.
 3.  If required, reboot your computer or force bash to re-read ```~/.profile```:
 
     ```exec -l bash```
+    
 4. Change directories to your private bin if you're not there already:
     ```cd ~/bin```
     Clone my script from the repository:
     ```git clone https://github.com/sampablo22/Linux-update-script.git```
+    
 5.  Mark the file as executable:
     ```chmod +x update_Debian.sh```
-    Now you can run the script from anywhere with:
+    
+6. Make a symlink from the script to the bin folder:
+
+    ```ln -s ~/bin/Linux-update-script/update_Debian.sh ~/bin```
+
+7. Now you can run the script from anywhere with:
     ```./update_Debian.sh```
 
 ## Issues
