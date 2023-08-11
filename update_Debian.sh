@@ -27,4 +27,4 @@ while true; do
 done
 
 echo "Uneccessary packages will now be removed.";
-do sudo apt autoremove
+sudo apt autoremove
