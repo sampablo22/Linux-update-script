@@ -1,5 +1,5 @@
 #!/bin/bash
-# This is a script to update the repositories and operating system for Debain based operating systems
+# This is a script to update the repositories and operating system for Debain based operating systems.
 echo "Hello "$USER", your operating system and repositories will now be updated."
 while true; do
 	read -p "Do you wish to run the update command? " yn
@@ -25,3 +25,6 @@ while true; do
 		* ) echo "Please answer yes or no.";;
 	esac
 done
+
+echo "Uneccessary packages will now be removed.";
+do sudo apt autoremove
